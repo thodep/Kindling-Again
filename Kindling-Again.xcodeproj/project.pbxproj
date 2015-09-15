@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C433952C3D6574DB9321511 /* libPods-Kindling-Again.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE21DA6D8304C29AECFE4D2D /* libPods-Kindling-Again.a */; };
+		D18067761BA75AC2008B36C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18067751BA75AC2008B36C0 /* AppDelegate.swift */; };
+		D18067791BA75AC2008B36C0 /* Kindling_Again.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D18067771BA75AC2008B36C0 /* Kindling_Again.xcdatamodeld */; };
+		D180677B1BA75AC2008B36C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180677A1BA75AC2008B36C0 /* ViewController.swift */; };
+		D180677E1BA75AC2008B36C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D180677C1BA75AC2008B36C0 /* Main.storyboard */; };
+		D18067801BA75AC2008B36C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D180677F1BA75AC2008B36C0 /* Images.xcassets */; };
+		D18067831BA75AC2008B36C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D18067811BA75AC2008B36C0 /* LaunchScreen.xib */; };
+		D180678F1BA75AC2008B36C0 /* Kindling_AgainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D180678E1BA75AC2008B36C0 /* Kindling_AgainTests.swift */; };
+		D18067991BA75B99008B36C0 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D18067981BA75B99008B36C0 /* Podfile */; };
+		D180679D1BA75C08008B36C0 /* BridgingHeaderTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = D180679C1BA75C08008B36C0 /* BridgingHeaderTrigger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D18067891BA75AC2008B36C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D18067681BA75AC2008B36C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D180676F1BA75AC2008B36C0;
+			remoteInfo = "Kindling-Again";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88A11510E3C48A56ECAE8E80 /* Pods-Kindling-Again.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kindling-Again.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Kindling-Again/Pods-Kindling-Again.debug.xcconfig"; sourceTree = "<group>"; };
+		AE21DA6D8304C29AECFE4D2D /* libPods-Kindling-Again.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Kindling-Again.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA56C3574C4948DFA4455DDB /* Pods-Kindling-Again.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kindling-Again.release.xcconfig"; path = "Pods/Target Support Files/Pods-Kindling-Again/Pods-Kindling-Again.release.xcconfig"; sourceTree = "<group>"; };
+		D18067701BA75AC2008B36C0 /* Kindling-Again.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kindling-Again.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18067741BA75AC2008B36C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18067751BA75AC2008B36C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18067781BA75AC2008B36C0 /* Kindling_Again.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kindling_Again.xcdatamodel; sourceTree = "<group>"; };
+		D180677A1BA75AC2008B36C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D180677D1BA75AC2008B36C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D180677F1BA75AC2008B36C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D18067821BA75AC2008B36C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D18067881BA75AC2008B36C0 /* Kindling-AgainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kindling-AgainTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D180678D1BA75AC2008B36C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D180678E1BA75AC2008B36C0 /* Kindling_AgainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kindling_AgainTests.swift; sourceTree = "<group>"; };
+		D18067981BA75B99008B36C0 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D180679A1BA75C08008B36C0 /* Kindling-Again-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kindling-Again-Bridging-Header.h"; sourceTree = "<group>"; };
+		D180679B1BA75C08008B36C0 /* BridgingHeaderTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeaderTrigger.h; sourceTree = "<group>"; };
+		D180679C1BA75C08008B36C0 /* BridgingHeaderTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgingHeaderTrigger.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D180676D1BA75AC2008B36C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C433952C3D6574DB9321511 /* libPods-Kindling-Again.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18067851BA75AC2008B36C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		419450080EF857F5404E74BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE21DA6D8304C29AECFE4D2D /* libPods-Kindling-Again.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6492A0A603F3ECE095420B3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88A11510E3C48A56ECAE8E80 /* Pods-Kindling-Again.debug.xcconfig */,
+				BA56C3574C4948DFA4455DDB /* Pods-Kindling-Again.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D18067671BA75AC2008B36C0 = {
+			isa = PBXGroup;
+			children = (
+				D180679B1BA75C08008B36C0 /* BridgingHeaderTrigger.h */,
+				D180679C1BA75C08008B36C0 /* BridgingHeaderTrigger.m */,
+				D18067981BA75B99008B36C0 /* Podfile */,
+				D18067721BA75AC2008B36C0 /* Kindling-Again */,
+				D180678B1BA75AC2008B36C0 /* Kindling-AgainTests */,
+				D18067711BA75AC2008B36C0 /* Products */,
+				6492A0A603F3ECE095420B3E /* Pods */,
+				419450080EF857F5404E74BA /* Frameworks */,
+				D180679A1BA75C08008B36C0 /* Kindling-Again-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		D18067711BA75AC2008B36C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D18067701BA75AC2008B36C0 /* Kindling-Again.app */,
+				D18067881BA75AC2008B36C0 /* Kindling-AgainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D18067721BA75AC2008B36C0 /* Kindling-Again */ = {
+			isa = PBXGroup;
+			children = (
+				D18067751BA75AC2008B36C0 /* AppDelegate.swift */,
+				D180677A1BA75AC2008B36C0 /* ViewController.swift */,
+				D180677C1BA75AC2008B36C0 /* Main.storyboard */,
+				D180677F1BA75AC2008B36C0 /* Images.xcassets */,
+				D18067811BA75AC2008B36C0 /* LaunchScreen.xib */,
+				D18067771BA75AC2008B36C0 /* Kindling_Again.xcdatamodeld */,
+				D18067731BA75AC2008B36C0 /* Supporting Files */,
+			);
+			path = "Kindling-Again";
+			sourceTree = "<group>";
+		};
+		D18067731BA75AC2008B36C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D18067741BA75AC2008B36C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D180678B1BA75AC2008B36C0 /* Kindling-AgainTests */ = {
+			isa = PBXGroup;
+			children = (
+				D180678E1BA75AC2008B36C0 /* Kindling_AgainTests.swift */,
+				D180678C1BA75AC2008B36C0 /* Supporting Files */,
+			);
+			path = "Kindling-AgainTests";
+			sourceTree = "<group>";
+		};
+		D180678C1BA75AC2008B36C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D180678D1BA75AC2008B36C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D180676F1BA75AC2008B36C0 /* Kindling-Again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18067921BA75AC2008B36C0 /* Build configuration list for PBXNativeTarget "Kindling-Again" */;
+			buildPhases = (
+				10962F46C8698E7AAD6B3750 /* Check Pods Manifest.lock */,
+				D180676C1BA75AC2008B36C0 /* Sources */,
+				D180676D1BA75AC2008B36C0 /* Frameworks */,
+				D180676E1BA75AC2008B36C0 /* Resources */,
+				5221AC920822E688A61A06CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kindling-Again";
+			productName = "Kindling-Again";
+			productReference = D18067701BA75AC2008B36C0 /* Kindling-Again.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D18067871BA75AC2008B36C0 /* Kindling-AgainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D18067951BA75AC2008B36C0 /* Build configuration list for PBXNativeTarget "Kindling-AgainTests" */;
+			buildPhases = (
+				D18067841BA75AC2008B36C0 /* Sources */,
+				D18067851BA75AC2008B36C0 /* Frameworks */,
+				D18067861BA75AC2008B36C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D180678A1BA75AC2008B36C0 /* PBXTargetDependency */,
+			);
+			name = "Kindling-AgainTests";
+			productName = "Kindling-AgainTests";
+			productReference = D18067881BA75AC2008B36C0 /* Kindling-AgainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D18067681BA75AC2008B36C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tho Dang";
+				TargetAttributes = {
+					D180676F1BA75AC2008B36C0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D18067871BA75AC2008B36C0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D180676F1BA75AC2008B36C0;
+					};
+				};
+			};
+			buildConfigurationList = D180676B1BA75AC2008B36C0 /* Build configuration list for PBXProject "Kindling-Again" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D18067671BA75AC2008B36C0;
+			productRefGroup = D18067711BA75AC2008B36C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D180676F1BA75AC2008B36C0 /* Kindling-Again */,
+				D18067871BA75AC2008B36C0 /* Kindling-AgainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D180676E1BA75AC2008B36C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D180677E1BA75AC2008B36C0 /* Main.storyboard in Resources */,
+				D18067831BA75AC2008B36C0 /* LaunchScreen.xib in Resources */,
+				D18067991BA75B99008B36C0 /* Podfile in Resources */,
+				D18067801BA75AC2008B36C0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18067861BA75AC2008B36C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10962F46C8698E7AAD6B3750 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5221AC920822E688A61A06CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Kindling-Again/Pods-Kindling-Again-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D180676C1BA75AC2008B36C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D180677B1BA75AC2008B36C0 /* ViewController.swift in Sources */,
+				D180679D1BA75C08008B36C0 /* BridgingHeaderTrigger.m in Sources */,
+				D18067791BA75AC2008B36C0 /* Kindling_Again.xcdatamodeld in Sources */,
+				D18067761BA75AC2008B36C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D18067841BA75AC2008B36C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D180678F1BA75AC2008B36C0 /* Kindling_AgainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D180678A1BA75AC2008B36C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D180676F1BA75AC2008B36C0 /* Kindling-Again */;
+			targetProxy = D18067891BA75AC2008B36C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D180677C1BA75AC2008B36C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D180677D1BA75AC2008B36C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D18067811BA75AC2008B36C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D18067821BA75AC2008B36C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D18067901BA75AC2008B36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D18067911BA75AC2008B36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D18067931BA75AC2008B36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A11510E3C48A56ECAE8E80 /* Pods-Kindling-Again.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Kindling-Again/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kindling-Again-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D18067941BA75AC2008B36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA56C3574C4948DFA4455DDB /* Pods-Kindling-Again.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Kindling-Again/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Kindling-Again-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		D18067961BA75AC2008B36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kindling-AgainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kindling-Again.app/Kindling-Again";
+			};
+			name = Debug;
+		};
+		D18067971BA75AC2008B36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kindling-AgainTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kindling-Again.app/Kindling-Again";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D180676B1BA75AC2008B36C0 /* Build configuration list for PBXProject "Kindling-Again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18067901BA75AC2008B36C0 /* Debug */,
+				D18067911BA75AC2008B36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18067921BA75AC2008B36C0 /* Build configuration list for PBXNativeTarget "Kindling-Again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18067931BA75AC2008B36C0 /* Debug */,
+				D18067941BA75AC2008B36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D18067951BA75AC2008B36C0 /* Build configuration list for PBXNativeTarget "Kindling-AgainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D18067961BA75AC2008B36C0 /* Debug */,
+				D18067971BA75AC2008B36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D18067771BA75AC2008B36C0 /* Kindling_Again.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D18067781BA75AC2008B36C0 /* Kindling_Again.xcdatamodel */,
+			);
+			currentVersion = D18067781BA75AC2008B36C0 /* Kindling_Again.xcdatamodel */;
+			path = Kindling_Again.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D18067681BA75AC2008B36C0 /* Project object */;
+}
